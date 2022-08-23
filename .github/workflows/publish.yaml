@@ -1,0 +1,23 @@
+name: Publish
+on:
+  push:
+    tags:
+      - "v*.*.*"
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Make e-book
+        uses: jensvog/ebook-convert-action@v1
+        with:
+          in: Code_v2.html
+          out: Code_v2.epub
+
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: Code_v2.epub
+
