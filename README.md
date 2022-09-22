@@ -2,6 +2,32 @@
 
 The [official site for the book](codev2.cc/) only offers a PDF. There are some epub versions available around the web, notably [on archive.org](https://archive.org/details/Code2.0/), but the formatting is not great. This repo is my attempt to convert that PDF into an epub with reasonably good formatting. 
 
+## Progress
+
+As of `v0.3.0`
+
+| Chapter | Status |
+| ------- | ------ |
+| 01 | Needs review |
+| 02 | Needs review |
+| 03 | Needs review |
+| 04 | Needs review |
+| 05 | Done |
+| 06 | Done |
+| 07 | Not started |
+| 08 | Not started |
+| 09 | Not started |
+| 10 | Not started |
+| 11 | Not started |
+| 12 | Not started |
+| 13 | Not started |
+| 14 | Not started |
+| 15 | Not started |
+| 16 | Not started |
+| 17 | Not started |
+| 18 | Not started |
+| 19 | Not started |
+
 ## Acknowledgements
 
 - Lawrence Lessig for writing the original book, and all the contributors to the wiki that resulted in V2.
