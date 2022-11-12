@@ -14,7 +14,7 @@ As of `v0.3.0`
 | 04 | Needs review |
 | 05 | Done |
 | 06 | Done |
-| 07 | Not started |
+| 07 | Done |
 | 08 | Not started |
 | 09 | Not started |
 | 10 | Not started |
