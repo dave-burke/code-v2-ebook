@@ -1874,6 +1874,8 @@ wants it to be. There’s little the state can do to change it.
 So too with the original Internet: Everyone was an invisible man. As
 cyberspace was originally architected, there was no simple way to know who
 someone was, where he was, or what he was doing. As the Internet was originally architected, then, there was no simple way to regulate behavior there.
+</p>
+<p>
 The aim of the last chapter, however, was to add a small but important
 point to this obvious idea: Whatever cyberspace was, there’s no reason it has
 to stay this way. The “nature” of the Internet is not God’s will. Its nature is
@@ -1894,12 +1896,12 @@ made for purely pragmatic, commercial ends.
 This obviously doesn’t make these changes bad or good. My purpose just
 now is not normative, but descriptive. We should understand where we are
 going, and why, before we ask whether this is where, or who, we want to be.
-</p>
-<p>
 The history of the future of the Internet was written in Germany in January
 1995. German law regulated porn. In Bavaria, it regulated porn heavily. CompuServe made (a moderate amount of, through USENET,) porn available to its
 users. CompuServe was serving Bavaria’s citizens. Bavaria told CompuServe to
 remove the porn from its servers, or its executives would be punished.
+</p>
+<p>
 CompuServe at first objected that there was nothing it could do—save
 removing the porn from every server, everywhere in the world. That didn’t
 trouble the Germans much, but it did trouble CompuServe. So in January
@@ -1926,7 +1928,7 @@ To see how the Net will show the state “who,” we need to think a bit more
 carefully about how “identification” works in general, and how it might work
 on the Internet.
 </p>
-<h4>Identity and Authentication: Real Space</h4>
+<h5>Identity and Authentication: Real Space</h5>
 <p>
 To make sense of the technologies we use to identify who someone is, consider
 the relationship among three familiar ideas—(1) “identity,” (2) “authentication,” and (3) “credential.”
@@ -2071,11 +2073,6 @@ increases the likelihood that felons will be caught again. Relying on a more
 changeable physical characteristic would reduce the ability of the police to
 track repeat offenders. The fact that cars have license plates and are registered
 by their owners increases the likelihood that a hit-and-run driver will be
-<hr/>
-<a name=58></a><img src="Code_v2-58_1.png"/>
-0465039146-01  12/5/06  12:27 AM  Page 43
-architectures of control
-
 caught. Without licenses, and without systems registering owners, it would be
 extremely difficult to track car-related crime. In all these cases, and in many
 more, technologies of authentication of real-space life make regulating that
@@ -2106,6 +2103,7 @@ machines decide to which machine the packet should be sent next. A packet
 could make many “hops” between its start and its end. But as the network
 becomes faster and more robust, those many hops seem almost instantaneous.
 </p>
+<img src="Code_v2-58_1.png"/>
 <p>
 In the terms I’ve described, there are many attributes that might be associated with any packet of data sent across the network. For example, the
 packet might come from an e-mail written by Al Gore. That means the e-mail
@@ -2114,6 +2112,8 @@ an American citizen, by a former member of the United States Senate, and so
 on. Imagine also that the e-mail was written while Al Gore was in Germany,
 and that it is about negotiations for climate control. The identity of that
 packet of information might be said to include all these attributes.
+</p>
+<p>
 But the e-mail itself authenticates none of these facts. The e-mail may say
 it’s from Al Gore, but the TCP/IP protocol alone gives us no way to be sure. It
 may have been written while Gore was in Germany, but he could have sent it
@@ -2126,6 +2126,8 @@ IP address to which the packet is to be sent, and an IP address from which the
 packet comes. From the perspective of the network, this other information is
 unnecessary surplus. Like a daydreaming postal worker, the network simply
 moves the data and leaves its interpretation to the applications at either end.
+</p>
+<p>
 This minimalism in the Internet’s design was not an accident. It reflects a
 decision about how best to design a network to perform a wide range over
 very different functions. Rather than build into this network a complex set of
@@ -2149,7 +2151,7 @@ entities out there interacting with it, but it knows nothing about who those
 entities are. While in real space—and here is the important point—anonymity
 has to be created, in cyberspace anonymity is the given.
 </p>
-<h4>Identity and Authentication: Regulability</h4>
+<h5>Identity and Authentication: Regulability</h5>
 <p>
 This difference in the architectures of real space and cyberspace makes a big
 difference in the regulability of behavior in each. The absence of relatively self-authenticating facts in cyberspace makes it extremely difficult to regulate
@@ -2176,6 +2178,7 @@ authentication is unstoppable. The only question is whether we will build
 into this system of authentication the kinds of protections for privacy and
 autonomy that are needed.
 </p>
+<h5>Architectures of Identification</h5>
 <p>
 Most who use the Internet have no real sense about whether their behavior is
 monitored, or traceable. Instead, the experience of the Net suggests
@@ -2214,6 +2217,8 @@ Well, imagine you’re angry at your boss. You think she’s a blowhard who
 is driving the company into bankruptcy. After months of frustration, you
 decide to go public. Not “public” as in a press conference, but public as in a
 posting to an online forum within which your company is being discussed.
+</p>
+<p>
 You know you’d get in lots of trouble if your criticism were tied back to
 you. So you take steps to be “anonymous” on the forum. Maybe you create an
 account in the forum under a fictitious name, and that fictitious name makes
@@ -2261,9 +2266,13 @@ even then not perfect traceability. ISPs don’t keep data for long (ordinarily)
 some don’t even keep assignment records at all. And if you’ve accessed the
 Internet at an Internet café, then there’s no reason to believe anything could
 be traced back to you. So still, the Internet provides at least some anonymity.
+</p>
+<p>
 But IP tracing isn’t the only technology of identification that has been layered onto the Internet. A much more pervasive technology was developed
 early in the history of the Web to make the web more valuable to commerce
 and its customers. This is the technology referred to as “cookies.”
+</p>
+<p>
 When the World Wide Web was first deployed, the protocol simply
 enabled people to view content that had been marked up in a special programming language. This language (HTML) made it easy to link to other
 pages, and it made it simple to apply basic formatting to the content (bold, or
@@ -2272,6 +2281,8 @@ italics, for example).
 <p>
 But the one thing the protocol didn’t enable was a simple way for a website to know which machines had accessed it. The protocol was “state-less.”
 When a web server received a request to serve a web page, it didn’t know anything about the state of the requester before that request was made.5
+</p>
+<p>
 From the perspective of privacy, this sounds like a great feature for the
 Web. Why should a website know anything about me if I go to that site to view
 certain content? You don’t have to be a criminal to appreciate the value in
@@ -2289,6 +2300,8 @@ no easy way to recognize that you were the same entity that just ordered 20
 books. Or put differently, the web server would simply forget you. The Web as
 originally built had no way to remember you from one page to another. And
 thus, the Web as originally built would not be of much use to commerce.
+</p>
+<p>
 But as I’ve said again and again, the way the Web was is not the way the
 Web had to be. And so those who were building the infrastructure of the Web
 quickly began to think through how the web could be “improved” to make it
@@ -2364,6 +2377,8 @@ different sites on the Internet. Thus, for example, in a federated system, I
 might authenticate myself to my university, but then I could move across any
 domain within the federation without authenticating again. The big advantage in this architecture is that I can authenticate to the institution I trust
 without spreading lots of data about myself to institutions I don’t trust.
+</p>
+<p>
 SSOs have been very important in building identity into the Internet. But
 a second technology, I believe, will become the most important tool for identification in the next ten years. This is because this alternative respects important architectural features of the Internet, and because the demand for better
 technologies of identification will continue to be strong. Forget the hassle of
@@ -2410,6 +2425,8 @@ then there’s a period of time when it’s relatively easy for the thief to use
 cards to buy stuff. In cyberspace, these wallets are not easily stolen. Indeed, if
 they’re architected well, it would be practically impossible to “steal” them.
 Remove the cards from their holder, and they become useless digital objects.
+</p>
+<p>
 Or again, in real space, if you want to authenticate that you’re over 21 and
 therefore can buy a six-pack of beer, you show the clerk your driver’s license.
 With that, he authenticates your age. But with that bit of data, he also gets
@@ -2446,6 +2463,8 @@ an important gift to the Internet, the Identity Layer is not altruism.
 “Microsoft’s strategy is based on web services,” Cameron described to me.
 “Web services are impossible without identity.”9 There is important public
 value here, but private interest is driving the deployment of this public value.
+</p>
+<p>
 The Identity Layer would benefit individuals, businesses, and the government, but each differently. Individuals could more easily protect themselves from identity theft;10 if you get an e-mail from PayPal demanding you
 update your account, you’ll know whether the website is actually PayPal. Or if
 you want to protect yourself against spam, you could block all e-mail that
@@ -2469,6 +2488,8 @@ across the web.
 <p>
 But while individuals, commerce, and government would all benefit from
 this sort of technology, there is also something that each could lose.
+</p>
+<p>
 Individuals right now can be effectively anonymous on the Net. A platform for authenticated identity would make anonymity much harder. We
 might imagine, for example, a norm developing to block access to a website by
 anyone not carrying a token that at least made it possible to trace back to the
@@ -2501,6 +2522,8 @@ But for our purposes, the only important fact to notice is that this infrastruct
 answering: <i>Who </i>did what where? With an infrastructure enabling cheap identification wherever you are, the frequency of unidentified activity falls dramatically.
 </p>
 <p>
+</p>
+<p>
 This final example of an identification technology throws into relief an
 important fact about encryption technology. The Identity Layer depends
 upon cryptography. It thus demonstrates the sense in which cryptography is
@@ -2515,6 +2538,8 @@ Cryptography can be all these things, both good and bad, because encryption can 
 function it can be “used to provide forgery-proof digital identities.”12 It
 enables freedom from regulation (as it enhances confidentiality), but it can
 also enable more efficient regulation (as it enhances identification).13
+</p>
+<p>
 Its traditional use is secrets. Encrypt a message, and only those with the
 proper key can open and read it. This type of encryption has been around as
 long as language itself. But until the mid-1970s it suffered from an important
@@ -2596,13 +2621,19 @@ The way follows the same technique described in the section above. Again,
 the TCP/IP protocol doesn’t include technology for identifying the content
 carried in TCP/IP packets. But it also doesn’t interfere with applications that
 might examine TCP/IP packets and report what those packets are about.
+</p>
+<p>
 So, for example, consider a package produced by Ipanema Technologies.
 This technology enables a network owner to inspect the packets traveling on
 its network. As its webpage promises,
+</p>
+<blockquote>
 The Ipanema Systems “deep” layer 7 packet inspection automatically recognizes
 all critical business and recreational application flows running over the network.
 Real-time graphical interfaces as well as minute-by-minute reports are available
 to rapidly discover newly deployed applications.17
+</blockquote>
+<p>
 Using the data gathered by this technology, the system generates reports
 about the applications being used in the network, and who’s using them.
 These technologies make it possible to control network use, either to economize on bandwidth costs, or to block uses that the network owner doesn’t permit.
@@ -2617,12 +2648,18 @@ instant messages and P2P connections containing inappropriate words; [and
 produce] detailed Internet activity logs.” Once again, this is an application that
 sits on top of the network and watches. It intervenes in network activity when
 it identifies the activity as the kind the administrator wants to control.
+</p>
+<p>
 In addition to these technologies of control, programmers have developed
 a wide range of programs to monitor networks. Perhaps the dominant application in this context is called “nmap”—a program
+</p>
+<blockquote>
 for network exploration or security auditing . . . designed to rapidly scan large networks. . . . Nmap uses raw IP packets in novel ways to determine what hosts are
 available on the network, what services (application name and version) those
 hosts are offering, what operating systems (and OS versions) they are running,
 what type of packet filters/firewalls are in use, and dozens of other characteristics.19
+</blockquote>
+<p>
 This software is “free software,” meaning the source code is available, and
 any modifications of the source code must be made available as well. These
 conditions essentially guarantee that the code necessary to engage in this
@@ -2634,6 +2671,8 @@ one popular example describes, “is the selective passing or blocking of data
 packets as they pass through a network interface. . . . The most often used criteria are source and destination address, source and destination port, and
 protocol.” This again is a technology that’s monitoring “what” is carried
 within packets, and decides what’s allowed based upon what it finds.
+</p>
+<p>
 In each of these cases, a layer of code complements the TCP/IP protocol,
 to give network administrators something TCP/IP alone would not—namely,
 knowledge about “what” is carried in the network packets. That knowledge
@@ -2669,6 +2708,8 @@ third bit of data necessary to regulate efficiently is knowing where the target 
 regulation is. If France forbids the selling of Nazi paraphernalia, but the United
 States does not, then a website wanting to respect the laws of France must know
 something about where the person accessing the Internet is coming from.
+</p>
+<p>
 But once again, the Internet protocols didn’t provide that data. And thus,
 it would be extremely difficult to regulate or zone access to content on the
 basis of geography.
@@ -2676,7 +2717,7 @@ basis of geography.
 <p>
 The original Internet made such regulation extremely difficult. As originally deployed, as one court put it:
 </p>
-<p>
+<blockquote>
 The Internet is wholly insensitive to geographic distinctions. In almost every
 case, users of the Internet neither know nor care about the physical location of
 the Internet resources they access. Internet protocols were designed to ignore
@@ -2684,7 +2725,7 @@ rather than document geographic location; while computers on the network
 do have “addresses,” they are logical addresses on the network rather than geographic addresses in real space. The majority of Internet addresses contain no
 geographic clues and, even where an Internet address provides such a clue, it
 may be misleading.20
-</p>
+</blockquote>
 <p>
 But once again, commerce has come to the rescue of regulability. There
 are obvious reasons why it would useful to be able to identify where someone
@@ -2742,6 +2783,8 @@ flag the transaction and direct that it have greater security verification. Max-
 its product, a client can target a message based upon country, state, or city, as
 well as a “metropolitan code,” an area code, and connection speed of the user
 (no need to advertise DVD downloads to a person on a dial-up connection).
+</p>
+<p>
 Here too there is an important and powerful open source application
 that provides the same IP mapping functions. Hostip.info gives website operators—for free—the ability to “geolocate” the users of their site.23 This again
 means that the core functionality of IP mapping is not held exclusively by corporations or a few individuals. Any application developer—including a government—could incorporate the function into its applications. The
@@ -2777,10 +2820,14 @@ stand fast in justice.”25
 And if such a man did choose justice, even with the power of the ring,
 then “he would be thought by the lookers-on to be a most wretched idiot,
 although they would praise him to one another’s faces, and keep up appearances with one another from a fear that they too might suffer injustice.”
+</p>
+<p>
 But these gaps in the Internet’s original design are not necessary. We can
 imagine networks that interact seamlessly with the Internet but which don’t
 have these “imperfections.” And, more importantly, we can see why there
 would be an important commercial interest in eliminating these gaps.
+</p>
+<p>
 Yet you may still be skeptical. Even if most Internet activity is traceable
 using the technologies that I’ve described, you may still believe there are significant gaps. Indeed, the explosion of spam, viruses, ID theft, and the like are
 strong testimony to the fact that there’s still a lot of unregulable behavior.
@@ -2790,6 +2837,8 @@ commerce could.
 <p>
 But commerce is not the only actor here. Government is also an important ally, and the framework of regulability that commerce has built could be
 built on again by government.
+</p>
+<p>
 Government can, in other words, help commerce and help itself. How it
 does so is the subject of the chapter that follows.
 </p>
