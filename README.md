@@ -8,7 +8,7 @@ As of `v0.4.0`
 
 | Chapter | Status |
 | ------- | ------ |
-| 01 | Needs review |
+| 01 | Done |
 | 02 | Needs review |
 | 03 | Needs review |
 | 04 | Needs review |
