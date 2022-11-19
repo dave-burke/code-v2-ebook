@@ -9,7 +9,7 @@ As of `v0.4.0`
 | Chapter | Status |
 | ------- | ------ |
 | 01 | Done |
-| 02 | Needs review |
+| 02 | Done |
 | 03 | Needs review |
 | 04 | Needs review |
 | 05 | Done |
