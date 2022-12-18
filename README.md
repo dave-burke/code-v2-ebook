@@ -23,7 +23,7 @@ As of `v0.5.0`
 | 13 | Done |
 | 14 | Done |
 | 15 | Done |
-| 16 | Not started |
+| 16 | Done |
 | 17 | Not started |
 | 18 | Not started |
 | 19 | Not started |
