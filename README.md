@@ -24,9 +24,9 @@ As of `v0.9.0`
 | 14 | Done |
 | 15 | Done |
 | 16 | Done |
-| 17 | Not started |
-| 18 | Not started |
-| 19 | Not started |
+| 17 | Done |
+| 18 | Done |
+| Appendices | Not started |
 
 ## Acknowledgements
 
