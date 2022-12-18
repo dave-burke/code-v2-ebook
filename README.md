@@ -6,29 +6,29 @@ The [official site for the book](codev2.cc/) only offers a PDF. There are some e
 
 As of `v0.10.0`
 
-| Chapter | Status |
-| ------- | ------ |
-| 01 | Done |
-| 02 | Done |
-| 03 | Done |
-| 04 | Done |
-| 05 | Done |
-| 06 | Done |
-| 07 | Done |
-| 08 | Done |
-| 09 | Done |
-| 10 | Done |
-| 11 | Done |
-| 12 | Done |
-| 13 | Done |
-| 14 | Done |
-| 15 | Done |
-| 16 | Done |
-| 17 | Done |
-| 18 | Done |
-| Appendices | Done |
-| Notes | Through chapter 1 |
-| Index | Not started |
+| Chapter | Formatting | Notes links |
+| ------- | ---------- | ----------- |
+| 01 | Done | Done |
+| 02 | Done | Not started |
+| 03 | Done | Not started |
+| 04 | Done | Not started |
+| 05 | Done | Not started |
+| 06 | Done | Not started |
+| 07 | Done | Done |
+| 08 | Done | Not started |
+| 09 | Done | Not started |
+| 10 | Done | Not started |
+| 11 | Done | Not started |
+| 12 | Done | Not started |
+| 13 | Done | Not started |
+| 14 | Done | Not started |
+| 15 | Done | Not started |
+| 16 | Done | Not started |
+| 17 | Done | Not started |
+| 18 | Done | Not started |
+| Appendices | Done | Not started |
+| Notes | Done | NA |
+| Index | Not started | NA |
 
 Other tasks:
 
