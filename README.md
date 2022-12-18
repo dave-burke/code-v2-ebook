@@ -4,7 +4,7 @@ The [official site for the book](codev2.cc/) only offers a PDF. There are some e
 
 ## Progress
 
-As of `v0.5.0`
+As of `v0.9.0`
 
 | Chapter | Status |
 | ------- | ------ |
