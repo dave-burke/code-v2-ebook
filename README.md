@@ -27,12 +27,11 @@ As of `v0.10.0`
 | 17 | Done |
 | 18 | Done |
 | Appendices | Done |
-| Notes | In progress |
+| Notes | Through chapter 1 |
 | Index | Not started |
 
 Other tasks:
 
-- [ ] Links to Notes
 - [ ] Tidy HTML
 - [ ] Finalize CSS styles
 
