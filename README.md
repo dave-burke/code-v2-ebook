@@ -18,7 +18,7 @@ As of `v0.10.0`
 | 08 | Done | Done |
 | 09 | Done | Done |
 | 10 | Done | Done |
-| 11 | Done | Not started |
+| 11 | Done | Done |
 | 12 | Done | Not started |
 | 13 | Done | Not started |
 | 14 | Done | Not started |
@@ -27,7 +27,7 @@ As of `v0.10.0`
 | 17 | Done | Not started |
 | 18 | Done | Not started |
 | Appendices | Done | Not started |
-| Notes | Done | NA |
+| Notes | In progress | NA |
 | Index | Not started | NA |
 
 Other tasks:
