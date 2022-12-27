@@ -17,7 +17,7 @@ As of `v0.10.0`
 | 07 | Done | Done |
 | 08 | Done | Done |
 | 09 | Done | Done |
-| 10 | Done | Not started |
+| 10 | Done | Done |
 | 11 | Done | Not started |
 | 12 | Done | Not started |
 | 13 | Done | Not started |
