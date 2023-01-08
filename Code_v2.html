@@ -14,18 +14,42 @@
     .quote-citation {
     text-align: right;
     }
+    h1.part-header {
+      color: white;
+      background-color: black;
+      padding: 2rem;
+      border-radius: 24px;
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    h1, h2, h4, .uppercase {
+      text-transform: uppercase;
+    }
+    h3, .lowercase {
+      text-transform: lowercase;
+      text-align: center;
+    }
+    hr {
+      height: 3px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: none;
+      border-right: none;
+    }
     </style>
   </head>
   <body>
     <h1>
-      CODE
+      Code
     </h1>
-    <h2>
-      version 2.0
-    </h2>
     <h3>
-      LAWRENCE LESSIG
+      version 2.0
     </h3>
+    <h2>
+      Lawrence Lessig
+    </h2>
     <p>
       A Member of the Perseus Books Group New York
     </p>
@@ -45,21 +69,21 @@
       ISBN-13: 978–0–465–03914–2<br>
       06 07 08 09 / 10 9 8 7 6 5 4 3 2 1<br>
     </p>
-    <h4>
+    <h5>
       Code version 1.0
-    </h4>
-    <p>
-      FOR CHARLIE NESSON, WHOSE EVERY IDEA SEEMS CRAZY FOR ABOUT A YEAR.
+    </h5>
+    <p class="uppercase">
+      For charlie nesson, whose every idea seems crazy for about a year.
     </p>
-    <h4>
+    <h5>
       Code version 2.0
-    </h4>
-    <p>
-      TO WIKIPEDIA, THE ONE SURPRISE THAT TEACHES MORE THAN EVERYTHING HERE.
+    </h5>
+    <p class="uppercase">
+      To Wikipedia, the one surprise that teaches more than everything here.
     </p>
-    <h3>
-      CONTENTS
-    </h3>
+    <h2>
+      Contents
+    </h2>
     <ul style="list-style-type: none;">
       <li>
         <a href="#preface1"><em>Preface to the Second Edition</em></a>
@@ -74,7 +98,7 @@
         <a href="#c2">Chapter 2. Four Puzzles from Cyberspace</a>
       </li>
       <li>
-        <a href="#p1">PART I: “REGULABILITY”</a>
+        <a href="#p1" class="uppercase">Part I: “Regulability”</a>
       </li>
       <li>
         <a href="#c3">Chapter 3. Is-Ism: Is the Way It Is the Way It Must Be?</a>
@@ -86,7 +110,7 @@
         <a href="#c5">Chapter 5. Regulating Code</a>
       </li>
       <li>
-        <a href="#p2">PART II: REGULATION BY CODE</a>
+        <a href="#p2" class="uppercase">Part II: Regulation By Code</a>
       </li>
       <li>
         <a href="#c6">Chapter 6. Cyberspaces</a>
@@ -98,7 +122,7 @@
         <a href="#c8">Chapter 8. The Limits in Open Code</a>
       </li>
       <li>
-        <a href="#p3">PART III: LATENT AMBIGUITIES</a>
+        <a href="#p3" class="uppercase">Part III: Latent Ambiguities</a>
       </li>
       <li>
         <a href="#c9">Chapter 9. Translation</a>
@@ -116,7 +140,7 @@
         <a href="#c13">Chapter 13. Interlude</a>
       </li>
       <li>
-        <a href="#p4">PART IV: COMPETING SOVEREIGNS</a>
+        <a href="#p4" class="uppercase">Part IV: Competing Sovereigns</a>
       </li>
       <li>
         <a href="#c14">Chapter 14. Sovereignty</a>
@@ -125,7 +149,7 @@
         <a href="#c15">Chapter 15. Competition Among Sovereigns</a>
       </li>
       <li>
-        <a href="#p5">PART V: RESPONSES</a>
+        <a href="#p5" class="uppercase">Part V: Responses</a>
       </li>
       <li>
         <a href="#c16">Chapter 16. The Problems We Face</a>
@@ -149,13 +173,16 @@
     <p></p>
     <p></p>
     <h2 id="preface1">
-      PREFACE TO THE SECOND EDITION
-    </h2>This is a translation of an old book—indeed, in Internet time, it is a translation of an ancient text. The
+      Preface to the Second Edition
+    </h2>
+    <hr/>
+    <p>This is a translation of an old book—indeed, in Internet time, it is a translation of an ancient text. The
     first edition of this book was published in 1999. It was written in a very different context, and, in many ways, it
     was written in opposition to that context. As I describe in the first chapter, the dominant idea among those who
     raved about cyberspace then was that cyberspace was beyond the reach of real-space regulation. Governments couldn’t
     touch life online. And hence, life online would be different, and separate, from the dynamic of life offline.
     <em>Code</em> v1 was an argument against that then common view.
+    </p>
     <p></p>
     <p>
       In the years since, that common view has faded. The confidence of the Internet exceptionalists has waned. The
@@ -231,8 +258,9 @@
       I’ve ever known, and without whom I could not have done this, or much else in the past few years.
     </p>
     <h2 id="preface2">
-      PREFACE TO THE FIRST EDITION
+      Preface to the First Edition
     </h2>
+    <hr/>
     <p>
       In the spring of 1996, at an annual conference organized under the title “Computers, Freedom, and Privacy” (CFP),
       two science-fiction writers were invited to tell stories about cyberspace’s future. Vernor Vinge spoke about
@@ -411,16 +439,17 @@
       dedicated my life, Bettina Neuefeind. Her love will seem crazy, and wonderful, for much more than a year.
     </p>
     <h1>
-      CODE
+      Code
     </h1>
     <h2 id="c1">
-      ONE
+      One
     </h2>
+    <hr/>
     <h3>
       Code is Law
     </h3>
     <p>
-      ALMOST TWO DECADES AGO, IN THE SPRING OF 1989, COMMUNISM IN EUROPE died—collapsed, like a tent, its main post
+      Almost two decades ago, in the spring of 1989, communism in Europe died—collapsed, like a tent, its main post
       removed. The end was not brought by war or revolution. The end was exhaustion. A new political regime was born in
       its place across Central and Eastern Europe, the beginnings of a new political society.
     </p>
@@ -711,13 +740,14 @@
       misplaced. Indeed, events have only reinforced that pessimism.
     </p>
     <h2 id="c2">
-      TWO
+      Two
     </h2>
+    <hr/>
     <h3>
       Four Puzzles from Cyberspace
     </h3>
     <p>
-      EVERYONE WHO IS READING THIS BOOK HAS USED THE INTERNET. SOME HAVE BEEN in “cyberspace.” The Internet is that
+      Everyone who is reading this book has used the Internet. some have been in “cyberspace.” The Internet is that
       medium through which your e-mail is delivered and web pages get published. It’s what you use to order books on
       Amazon or to check the times for local movies at Fandango. Google is on the Internet, as are Microsoft “help
       pages.”
@@ -747,7 +777,7 @@
       end of this chapter, I come clean about the themes and provide a map. For now, just focus on the stories.
     </p>
     <h4>
-      BORDERS
+      Borders
     </h4>
     <p>
       It was a very ordinary dispute, this argument between Martha Jones and her neighbors.<sup><a href=
@@ -974,7 +1004,7 @@
       Let me describe a few other places and the oddities that inhabit them.
     </p>
     <h4>
-      GOVERNORS
+      Governors
     </h4>
     <p>
       A state—call it “Boral”—doesn’t like its citizens gambling, even if many of its citizens do like gambling. But
@@ -1012,7 +1042,7 @@
       Net as it originally was, life on the Net is less regulable than life off the Net.
     </p>
     <h4>
-      JAKE’S COMMUNITIES
+      Jake’s Communities
     </h4>
     <p>
       If you had met Jake at a party in Ann Arbor (were Jake at a party in Ann Arbor), you would have forgotten
@@ -1163,7 +1193,7 @@
       and the lives of those around them.
     </p>
     <h4>
-      WORMS THAT SNIFF
+      Worms That Sniff
     </h4>
     <p>
       A “worm” is a bit of computer code that is spit out on the Net and works its way into the systems of vulnerable
@@ -1268,7 +1298,7 @@
       world the framers couldn’t even imagine?
     </p>
     <h4>
-      THEMES
+      Themes
     </h4>
     <p>
       Four stories, four themes, each a window into one aspect of cyberspace that will be central in all that follows.
@@ -1465,17 +1495,19 @@
       were confronted with a “doctor” carrying a vial of leeches. There’s much we could do in this context, or at
       least, that is my view. But there’s a very good reason not to want to do anything with this particular doctor.
     </p>
-    <h1 id="p1">
-      PART ONE: “Regulability”
+    <h1 id="p1" class="part-header">
+      Part One
     </h1>
+    <h3>“Regulability”</h3>
     <p>
       It is said that cyberspace can’t be regulated. But what does it mean to say that something could be regulated?
       What makes regulation possible? That’s the question raised in this Part. If the Internet can’t be regulated, why?
       And whatever the reason, can it change? Might an unregulable space be tamed? Might the Wild West be won, and how?
     </p>
     <h2 id="c3">
-      THREE
+      Three
     </h2>
+    <hr/>
     <h3>
       Is-Ism: Is the Way It Is the Way It Must Be?
     </h3>
@@ -1545,7 +1577,7 @@
       types of control. I offer them to illustrate—to sketch enough to see a far more general point.
     </p>
     <h4>
-      CYBER-PLACES: HARVARD VERSUS CHICAGO
+      Cyber-places: Harvard Versus Chicago
     </h4>
     <p>
       The Internet was born at universities in the United States. Its first subscribers were researchers. But as a form
@@ -1743,8 +1775,9 @@
       An Internet, in other words, that flips the Internet as it was.
     </p>
     <h2 id="c4">
-      FOUR
+      Four
     </h2>
+    <hr/>
     <h3>
       Architectures of Control
     </h3>
@@ -1798,7 +1831,7 @@
       CompuServe.
     </p>
     <h4>
-      <em>WHO</em> DID WHAT, WHERE?
+      <em>Who</em> Did What, Where?
     </h4>
     <p>
       To regulate, the state needs a way to know the who, in “Who did what, where?” To see how the Net will show the
@@ -2380,7 +2413,7 @@
       something about us—will be known.
     </p>
     <h4>
-      WHO DID <em>WHAT</em>, WHERE?
+      Who Did <em>What</em>, Where?
     </h4>
     <p>
       Regulability also depends upon knowing the “what” in “who did what, where?” But again, the Internet as originally
@@ -2489,7 +2522,7 @@
       thus plugged by these privately developed technologies.
     </p>
     <h4>
-      WHO DID WHAT, <em>WHERE</em>?
+      Who Did What, <em>Where</em>?
     </h4>
     <p>
       Finally, as long as different jurisdictions impose different requirements, the third bit of data necessary to
@@ -2582,7 +2615,7 @@
       for identity described above, this sort will become quite effective.
     </p>
     <h4>
-      RESULTS
+      Results
     </h4>
     <p>
       In the last chapter, we saw that the unregulability of the Internet was a product of design: that the failure of
@@ -2620,8 +2653,9 @@
       follows.
     </p>
     <h2 id="c5">
-      FIVE
+      Five
     </h2>
+    <hr/>
     <h3>
       Regulating Code
     </h3>
@@ -2667,7 +2701,7 @@
       Internet’s nascent years, but no longer.”<sup><a href="#note-c5-3">[3]</a></sup>
     </p>
     <h4>
-      REGULATING ARCHITECTURE: THE REGULATORY TWO-STEP
+      Regulating Architecture: The Regulatory Two-step
     </h4>
     <p>
       We can call this the “regulatory two-step”: In a context in which behavior is relatively unregulable, the
@@ -2888,7 +2922,7 @@
       not by regulating primary behavior but by regulating the conditions under which primary behavior happens.
     </p>
     <h4>
-      REGULATING CODE TO INCREASE REGULABILITY
+      Regulating Code To Increase Regulability
     </h4>
     <p>
       All five of these examples address a behavior that the government wants to regulate, but which it cannot (easily)
@@ -3082,7 +3116,7 @@
       “It’s just business,” is the obvious reply.
     </p>
     <h4>
-      EAST COAST AND WEST COAST CODES
+      East Coast and West Coast Codes
     </h4>
     <p>
       Throughout this section, I’ve been speaking of two sorts of code. One is the “code” that Congress enacts (as in
@@ -3175,7 +3209,7 @@
       identity away, and all this could be yours.
     </p>
     <h4>
-      Z-THEORY
+      Z-Theory
     </h4>
     <p>
       “So, like, it didn’t happen, Lessig. You said in 1999 that commerce and government would work together to build
@@ -3433,9 +3467,10 @@
       Radically so.
     </p>
     <p></p>
-    <h1 id="p2">
-      PART TWO: “Regulation by Code”
+    <h1 id="p2" class="part-header">
+      Part Two:
     </h1>
+    <h3>“Regulation by Code”</h3>
     <p>
       The lesson of the last part was that the interaction between commerce and government will change the effective
       architecture of the Internet. That change will increase the regulability of behavior on the Internet. Powder will
@@ -3463,8 +3498,9 @@
       regulation as a step to understanding more systematically the interaction between technology and policy.
     </p>
     <h2 id="c6">
-      SIX
+      Six
     </h2>
+    <hr/>
     <h3>
       Cyberspaces
     </h3>
@@ -3553,7 +3589,7 @@
       intuitions, in turn, will help us see something about where cyberspace is moving.
     </p>
     <h4>
-      THE VALUES OF A SPACE
+      The Values of a Space
     </h4>
     <p>
       Spaces have values.<sup><a href="#note-c6-6">[6]</a></sup> They manifest these values through the practices or
@@ -3655,7 +3691,7 @@
       what, and, most important, what ways of life will be enabled and disabled.
     </p>
     <h4>
-      CYBER-PLACES
+      Cyber-places
     </h4>
     <p>
       We can build on this point by looking at a number of “communities” that are constituted differently and that
@@ -4634,7 +4670,7 @@
       not a “place”—even where, that is, it is “just” a medium.
     </p>
     <h4>
-      HOW ARCHITECTURES MATTER AND SPACES DIFFER
+      How Architectures Matter and Spaces Differ
     </h4>
     <p>
       The spaces I have described here are different. In some places there is community—a set of norms that are
@@ -4683,7 +4719,7 @@
       but for today, we’re just going to do it by hand.”<sup><a href="#note-c6-56">[56]</a></sup>
     </blockquote>
     <h4>
-      REGULATING CODE TO REGULATE BETTER
+      Regulating Code to Regulate Better
     </h4>
     <p>
       I’ve surveyed a range of cyberspaces to make clear the elements of regulation within each. One increasingly
@@ -4891,10 +4927,11 @@
       of code regulation to consider one other important qualification.
     </p>
     <h2 id="c7">
-      SEVEN
+      Seven
     </h2>
+    <hr/>
     <h3>
-      what things regulate
+      What Things Regulate
     </h3>
     <p>
       JOHN STUART MILL WAS AN ENGLISHMAN. HE WAS ALSO ONE OF THE MOST influential political philosophers in America.
@@ -4959,7 +4996,7 @@
       beyond the threat to liberty from government power. It is a map for this more general understanding.
     </p>
     <h4>
-      A DOT’S LIFE
+      A Dot’s Life
     </h4>
     <p>
       There are many ways to think about “regulation.” I want to think about it from the perspective of someone who is
@@ -5101,7 +5138,7 @@
       mix be changed if change is desired?
     </p>
     <h4>
-      ON GOVERNMENTS AND WAYS TO REGULATE
+      On Governments and Ways to Regulate
     </h4>
     <p>
       I’ve described four constraints that I’ve said “regulate” an individual. But these separate constraints obviously
@@ -5366,7 +5403,7 @@
       such threat.
     </p>
     <h4>
-      THE PROBLEMS OF INDIRECTION
+      The Problems of Indirection
     </h4>
     <p>
       In 1985, after years of inaction, Congress passed the Low Level Radioactive Waste Policy Amendments Act to deal
@@ -5507,7 +5544,7 @@
       permitted to use nontransparent means when transparent means are available?
     </p>
     <h4>
-      WHERE THIS LEADS
+      Where This Leads
     </h4>
     <p>
       After I published an essay in the (then existing) <em>Industry Standard</em> arguing that “code is
@@ -5553,10 +5590,11 @@
       the contexts within which these worries become real.
     </p>
     <h2 id="c8">
-      EIGHT
+      Eight
     </h2>
+    <hr/>
     <h3>
-      the limits in open code
+      The Limits in Open Code
     </h3>
     <p>
       I’VE TOLD A STORY ABOUT HOW REGULATION WORKS, AND ABOUT THE INCREASING regulability of the Internet that we
@@ -5623,7 +5661,7 @@
       agree that the kind of code deployed matters. The balance of the chapter then makes that argument.
     </p>
     <h4>
-      BYTES THAT SNIFF
+      Bytes That Sniff
     </h4>
     <p>
       In Chapter 2, I described technology that at the time was a bit of science fiction. In the five years since, that
@@ -5679,7 +5717,7 @@
       should, in my view, have been the norm.
     </p>
     <h4>
-      MACHINES THAT COUNT
+      Machines That Count
     </h4>
     <p>
       Before November 7, 2000, there was very little discussion among national policy makers about the technology of
@@ -5767,7 +5805,7 @@
       balance of this chapter: How does open code affect regulability?
     </p>
     <h4>
-      CODE ON THE NET
+      Code on the Net
     </h4>
     <p>
       I’ve spent lots of time talking about “code.” It’s time to be a bit more specific about what “code” in the
@@ -5834,7 +5872,7 @@
       chapter is: What is the character of that code that makes it susceptible to regulation?
     </p>
     <h4>
-      A SHORT HISTORY OF CODE ON THE NET
+      A Short History of Code on the Net
     </h4>
     <p>
       In the beginning, of course, there were very few applications on the Net. The Net was no more than a protocol for
@@ -5990,7 +6028,7 @@
       certify programs they can’t trust. And that in turn will effect a significant discrimination against open code.
     </p>
     <h4>
-      REGULATING OPEN CODE
+      Regulating Open Code
     </h4>
     <p>
       Open code projects—whether free software or open source software projects— share the feature that the knowledge
@@ -6104,7 +6142,7 @@
       less likely to disable virus protection or spam filters.
     </p>
     <h4>
-      WHERE THIS LEADS
+      Where This Leads
     </h4>
     <p>
       My argument so far has taken a simple path. In answer to those who say that the Net cannot be regulated, I’ve
@@ -6170,9 +6208,10 @@
       character of the code, and open code changes that character. It is a limit on government’s power to regulate—not
       necessarily by defeating the power to regulate, but by changing it.
     </p>
-    <h1 id="p3">
-      PART THREE: latent ambiguities
+    <h1 id="p3" class="part-header">
+      Part Three:
     </h1>
+    <h3>Latent Ambiguities</h3>
     <p>
       The story so far has focused on regulation—both the changing regulability of behavior in cyberspace (it is
       increasing) and the distinctive way in which behavior in cyberspace will be regulated (through code).
@@ -6205,10 +6244,11 @@
       not.<sup><a href="#note-p3-1">[1]</a></sup>
     </p>
     <h2 id="c9">
-      NINE
+      Nine
     </h2>
+    <hr/>
     <h3>
-      translation
+      Translation
     </h3>
     <p>
       AT THE HEIGHT OF A PREVIOUS WAR ON DRUGS—PROHIBITION, IN THE LATE 1920s—the federal government began using a
@@ -6671,10 +6711,11 @@
       address? Are they choices that we must make?<sup><a href="#note-c9-32">[32]</a></sup>
     </p>
     <h2 id="c10">
-      TEN
+      Ten
     </h2>
+    <hr/>
     <h3>
-      intellectual property
+      Intellectual Property
     </h3>
     <p>
       HAROLD REEVES IS AMONG THE BEST RESEARCH ASSISTANTS I HAVE HAD. (BUT ALAS, the law has now lost him—he’s become a
@@ -6775,7 +6816,7 @@
       but we will soon see that this thought must be wrong.
     </p>
     <h4>
-      ON THE REPORTS OF COPYRIGHT’S DEMISE
+      On the Reports of Copyright’s Demise
     </h4>
     <p>
       Roughly put, copyright gives a copyright holder certain exclusive rights over the work, including, most famously,
@@ -6847,7 +6888,7 @@
       erase.
     </p>
     <h4>
-      LAW TO THE RESCUE
+      Law to the Rescue
     </h4>
     <p>
       The initial response to this push was a White Paper produced by the Commerce Department in 1995. The paper
@@ -6940,7 +6981,7 @@
       fundamental. They should force us to make a choice about those values, and about their place in our future.
     </p>
     <h4>
-      THE PROMISE FOR INTELLECTUAL PROPERTY IN CYBERSPACE
+      The Promise for Intellectual Property in Cyberspace
     </h4>
     <blockquote>
       <em>It all depends on whether you really understand the idea of trusted systems. If you don’t understand them,
@@ -7103,7 +7144,7 @@
       property. And together they suggest the potential problem that copyright law in cyberspace will create.
     </p>
     <h4>
-      THE LIMITS ON THE PROTECTION OF PROPERTY
+      The Limits on the Protection of Property
     </h4>
     <p>
       The realists in American legal history (circa 1890–1930) were scholars who (in part) emphasized the role of the
@@ -7328,7 +7369,7 @@
       secured to benefit the intellectual commons as a whole.
     </p>
     <h4>
-      PRIVATE SUBSTITUTES FOR PUBLIC LAW
+      Private Substitutes for Public Law
     </h4>
     <p>
       So copyright law strikes a balance between control and access. What about that balance when code is the law?
@@ -7522,7 +7563,7 @@
       in the imperfection of the real world. Consider a second.
     </p>
     <h4>
-      THE ANONYMITY THAT IMPERFECTION ALLOWS
+      The Anonymity that Imperfection Allows
     </h4>
     <p>
       I was a student at an English university for a number of years. In the college I attended, there was a
@@ -7600,7 +7641,7 @@
       to say a choice was made about it in the past.
     </p>
     <h4>
-      PERMISSION CULTURE VS. FREE
+      Permission Culture Vs. Free
     </h4>
     <p>
       I’ve already described the limits copyright law places on itself. These limits, as I argued, reflect important
@@ -7773,7 +7814,7 @@
       we should protect. That choice has not yet been made directly. It is one more choice we have yet to make.
     </p>
     <h4>
-      THE PROBLEMS THAT PERFECTION MAKES
+      The Problems that Perfection Makes
     </h4>
     <p>
       These three examples reveal a common pattern—one that will reach far beyond copyright. At one time we enjoyed a
@@ -7801,7 +7842,7 @@
       architecture will protect.
     </p>
     <h4>
-      CHOICES
+      Choices
     </h4>
     <p>
       I’ve argued that cyberspace will open up three important choices in the context of intellectual property: whether
@@ -7915,10 +7956,11 @@
       lesson may help policy makers recraft copyright law in the future.
     </p>
     <h2 id="c11">
-      ELEVEN
+      Eleven
     </h2>
+    <hr/>
     <h3>
-      privacy
+      Privacy
     </h3>
     <p>
       THE CONCLUSION OF PART 1 WAS THAT CODE COULD ENABLE A MORE REGULABLE cyberspace; the conclusion of Part 2 was
@@ -7961,7 +8003,7 @@
       will be the focus of this chapter, but I begin with the third to help orient the balance.
     </p>
     <h4>
-      PRIVACY IN PRIVATE
+      Privacy in Private
     </h4>
     <p>
       The traditional question of “privacy” was the limit the law placed upon the ability of others to penetrate your
@@ -7986,7 +8028,7 @@
       sort of privacy doesn’t present a “latent ambiguity.”
     </p>
     <h4>
-      PRIVACY IN PUBLIC: SURVEILLANCE
+      Privacy in Public: Surveillance
     </h4>
     <p>
       A second kind of privacy will seem at first oxymoronic—privacy in public. What kind of protection is there
@@ -8521,7 +8563,7 @@
       to make that choice.
     </p>
     <h4>
-      PRIVACY IN PUBLIC: DATA
+      Privacy in Public: Data
     </h4>
     <p>
       The story I’ve told so far is about limits on government: What power should the government have to surveil our
@@ -8853,7 +8895,7 @@
       the values we think are fundamental.
     </p>
     <h4>
-      SOLUTIONS
+      Solutions
     </h4>
     <p>
       I’ve identified two distinct threats to the values of privacy that the Internet will create. The first is the
@@ -9172,7 +9214,7 @@
       privacy better than law does, but where they don’t, then in my view law is needed.
     </p>
     <h4>
-      PRIVACY COMPARED
+      Privacy Compared
     </h4>
     <p>
       The reader who was dissatisfied with my argument in the last chapter is likely to begin asking pointed questions.
@@ -9248,10 +9290,11 @@
       just what politics is for. Laissez-faire will not cut it.
     </p>
     <h2 id="c12">
-      TWELVE
+      Twelve
     </h2>
+    <hr/>
     <h3>
-      free speech
+      Free Speech
     </h3>
     <p>
       THE RIGHT TO FREE SPEECH IS NOT THE RIGHT TO SPEAK FOR FREE. IT IS NOT THE right to free access to television, or
@@ -9410,7 +9453,7 @@
       core of the argument of this book—how technology interacts with law to create policy.
     </p>
     <h4>
-      THE REGULATORS OF SPEECH: PUBLICATION
+      The Regulators of Speech: Publication
     </h4>
     <p>
       Floyd Abrams is one of America’s leading First Amendment lawyers. In 1971 he was a young partner at the law firm
@@ -9731,7 +9774,7 @@
       model of the very best the Internet could be. That virtue, however, didn’t carry too far beyond the Internet.
     </p>
     <h4>
-      REGULATIONS OF SPEECH: SPAM AND PORN
+      Regulations of Speech: Spam and Porn
     </h4>
     <p>
       For all our talk about loving free speech, most of us, deep down, wouldn’t mind a bit of healthy speech
@@ -10718,7 +10761,7 @@
       gap. That would, in turn, advance free speech interests.
     </p>
     <h4>
-      THE REGULATIONS OF SPEECH: FREE CULTURE
+      The Regulations of Speech: Free Culture
     </h4>
     <p>
       The third context in which to consider the special relevance of cyberspace to free speech follows directly from
@@ -10797,7 +10840,7 @@
       Whether the values of free speech restrict this radical increase in the scope of copyright’s regulation.
     </p>
     <h4>
-      THE REGULATORS OF SPEECH: DISTRIBUTION
+      The Regulators of Speech: Distribution
     </h4>
     <p>
       So far my arguments about architecture have been about architectures in cyberspace. In this final story, I blur
@@ -10991,9 +11034,9 @@
       fully free and diverse. Of course, we should choose whether we want a faithful reading—translation does not
       provide its own normative support. But if fidelity is our aim, this is its answer.
     </p>
-    <h5>
-      SPEECH LESSONS
-    </h5>
+    <h4>
+      Speech Lessons
+    </h4>
     <p>
       What I described at the start of the book as modalities of constraint I have redescribed in this chapter as
       modalities of protection. While modalities of constraint can be used as swords against the individual (powers),
@@ -11012,10 +11055,11 @@
       architect cyberspace in ways that are inconsistent with those values.
     </p>
     <h2 id="c13">
-      THIRTEEN
+      Thirteen
     </h2>
+    <hr/>
     <h3>
-      interlude
+      Interlude
     </h3>
     <p>
       LET’S PAUSE FOR A MOMENT AND LOOK BACK OVER THESE THREE CHAPTERS. THERE is a pattern to the problems they
@@ -11073,9 +11117,10 @@
       cyberspace. Now the threat is to a traditional sovereignty. How do we translate that tradition to fit a world
       where code is law?
     </p>
-    <h1 id="p4">
-      PART FOUR: competing sovereigns
+    <h1 id="p4" class="part-header">
+      Part Four:
     </h1>
+    <h3>Competing Sovereigns</h3>
     <p>
       Sovereigns take themselves very seriously—especially sovereigns in cyberspace. Each has a strong sense of its own
       domain, and sometimes that sense translates into dominance in other domains. As more move online, the claims of
@@ -11089,10 +11134,11 @@
       argue, will press the architecture of the Internet to a certain familiar form.
     </p>
     <h2 id="c14">
-      FOURTEEN
+      Fourteen
     </h2>
+    <hr/>
     <h3>
-      sovereignty
+      Sovereignty
     </h3>
     <p>
       VIETNAM IS A COMMUNIST NATION. IT IS ONE OF THE FEW REMAINING COMMUNIST states, and, of course, its communism is
@@ -11175,7 +11221,7 @@
       How will they compete?
     </p>
     <h4>
-      THE SOVEREIGN OF THE SPACE: RULES
+      The Sovereign of the Space: Rules
     </h4>
     <p>
       When you enter the world of MMOG Second Life as a new character, the rules of Second Life are explained to you.
@@ -11252,7 +11298,7 @@
       of means remains.
     </p>
     <h4>
-      THE SOVEREIGN OF THE SPACE: CHOOSING RULES
+      The Sovereign of the Space: Choosing Rules
     </h4>
     <p>
       But how is that choice made? Or more directly, what about democracy? In real space, the rule is that sovereigns
@@ -11600,13 +11646,14 @@
       to a common understanding about this space and to develop a common strategy for dealing with its regulation.
     </p>
     <h2 id="c15">
-      FIFTEEN
+      Fifteen
     </h2>
+    <hr/>
     <h3>
-      competition among sovereigns
+      Competition Among Sovereigns
     </h3>
     <h4>
-      CONFLICTS
+      Conflicts
     </h4>
     <p>
       Here are two stories about the power of sovereignty, one you’re likely to have heard of, and the other not.
@@ -11773,7 +11820,7 @@
       "#note-c15-12">[12]</a></sup>
     </blockquote>
     <h4>
-      ON BEING “IN” CYBERSPACE
+      On Being “in” Cyberspace
     </h4>
     <p>
       Cyberspace is a place.<sup><a href="#note-c15-13">[13]</a></sup> People live there. They experience all the sorts
@@ -11947,7 +11994,7 @@
       This is something new.
     </p>
     <h4>
-      POSSIBLE RESOLUTIONS
+      Possible Resolutions
     </h4>
     <p>
       That there will be conflicts in how governments want their citizens to behave is certain. What is not yet certain
@@ -12310,9 +12357,10 @@
       would enable a degree of control of cyberspace that few have ever imagined. Cyberspace would go from being an
       unregulable space to, depending on the depth of the certificates, the most regulable space imaginable.
     </p>
-    <h1 id="p5">
-      PART FIVE: responses
+    <h1 id="p5" class="part-header">
+      Part Five:
     </h1>
+    <h3>Responses</h3>
     <p>
       The argument of Part I was that the unregulability of the original Internet will pass. Architectures will develop
       to make behavior there regulable again. Part II described one aspect of that regulability—technology. “Code” will
@@ -12336,10 +12384,11 @@
       era, and the most we may be able to do is stay on our feet until we have time to sober up.
     </p>
     <h2 id="c16">
-      SIXTEEN
+      Sixteen
     </h2>
+    <hr/>
     <h3>
-      the problems we face
+      The Problems We Face
     </h3>
     <p>
       THERE ARE CHOICES THAT WILL DETERMINE HOW CYBERSPACE IS. BUT, IN MY VIEW, we Americans are disabled from making
@@ -12356,7 +12405,7 @@
       reconsider.
     </p>
     <h4>
-      PROBLEMS WITH COURTS
+      Problems with Courts
     </h4>
     <p>
       There are two types of constitutions, one we could call codifying, and the other transformative. A codifying
@@ -12618,7 +12667,7 @@
       will include, then these are choices we can’t expect our courts to make.
     </p>
     <h4>
-      PROBLEMS WITH LEGISLATORS
+      Problems with Legislators
     </h4>
     <p>
       At a conference in former Soviet Georgia, sponsored by some Western agency of democracy, an Irish lawyer was
@@ -12771,7 +12820,7 @@
       simply stand by. Or we can try to imagine a world where choice can again be made collectively and responsibly.
     </p>
     <h4>
-      PROBLEMS WITH CODE
+      Problems with Code
     </h4>
     <p>
       At a Harvard workshop around the time the first edition of this book was published, Jean Camp, a Harvard computer
@@ -12821,10 +12870,11 @@
       guarantees that little good gets done.
     </p>
     <h2 id="c17">
-      SEVENTEEN
+      Seventeen
     </h2>
+    <hr/>
     <h3>
-      responses
+      Responses
     </h3>
     <p>
       WE NEED A PLAN. I’VE TOLD A DARK STORY ABOUT THE CHOICES THAT A CHANGING cyberspace is presenting, and about our
@@ -12833,7 +12883,7 @@
       sketches, but they should be enough to suggest the nature of the changes we need to make.
     </p>
     <h4>
-      RESPONSES OF A JUDICIARY
+      Responses of a Judiciary
     </h4>
     <p>
       I’ve said that we should understand judicial hesitancy as grounded in prudence. When so much seems possible, and
@@ -12896,7 +12946,7 @@
       conversation we need to have—but to date have not started.
     </p>
     <h4>
-      RESPONSES FOR CODE
+      Responses for Code
     </h4>
     <p>
       A second challenge is confronting the law in code—resolving, that is, just how we think about the regulatory
@@ -12995,7 +13045,7 @@
       The politics are just not there.
     </p>
     <h4>
-      RESPONSES OF A DEMOCRACY
+      Responses of a Democracy
     </h4>
     <p>
       In his rightly famous book <em>Profiles in Courage</em>, then-Senator John F. Kennedy tells the story of Daniel
@@ -13215,10 +13265,11 @@
       and the people, and that stands opposed to corruption dressed in aristocratic baubles.
     </p>
     <h2 id="c18">
-      EIGHTEEN
+      Eighteen
     </h2>
+    <hr/>
     <h3>
-      what declan doesn’t get
+      What Declan Doesn’t Get
     </h3>
     <p>
       DECLAN MCCULLAGH IS A WRITER WHO WORKS FOR WIRED NEWS. HE ALSO RUNS a mailing list that feeds subscribers
@@ -13385,7 +13436,7 @@
       unlike they, have something to lose.
     </p>
     <h2 id="a1">
-      APPENDIX
+      Appendix
     </h2>
     <p>
       In Chapter 7, I sketched briefly an argument for how the four modalities I described constrain differently. In
@@ -13615,27 +13666,27 @@
       with it.
     </p>
     <h2 id="a2">
-      NOTES
+      Notes
     </h2>
     <p>
       All hypertext links can be located at &lt;http://codev2.cc/links&gt;.
     </p>
     <h4>
-      PREFACE TO THE SECOND EDITION
+      Preface to the Second Edition
     </h4>
     <ol>
       <li id="note-preface1-1">The wiki lives on at &lt;http://wiki.codev2.cc&gt;.
       </li>
     </ol>
     <h4>
-      PREFACE TO THE FIRST EDITION
+      Preface to the First Edition
     </h4>
     <ol>
       <li id="note-preface2-1">Sixth Conference on Computers, Freedom and Privacy. See link #1.
       </li>
     </ol>
     <h4>
-      CHAPTER ONE
+      Chapter One
     </h4>
     <ol>
       <li id="note-c1-1">See Katie Hafner and Matthew Lyon, <em>Where Wizards Stay Up Late</em> (New York: Simon and
@@ -13695,7 +13746,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER TWO
+      Chapter Two
     </h4>
     <ol>
       <li id="note-c2-1">Second Life—“What is Second Life?”, available at link #3. The currently leading game, World of
@@ -13830,7 +13881,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER THREE
+      Chapter Three
     </h4>
     <ol>
       <li id="note-c3-1">David Johnson and David Post, “Law and Borders—The Rise of Law in Cyberspace,” <em>Stanford
@@ -13889,7 +13940,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER FOUR
+      Chapter Four
     </h4>
     <ol>
       <li id="note-c4-1">TelecomWorldWire, “Compuserve Moves for Porn Techno Fix,” January 11, 1995.
@@ -14205,7 +14256,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER FIVE
+      Chapter Five
     </h4>
     <ol>
       <li id="note-c5-1">Joel R. Reidenberg, “Technology and Internet Jurisdiction,” <em>University of Pennsylvania Law
@@ -14429,7 +14480,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER SIX
+      Chapter Six
     </h4>
     <ol>
       <li id="note-c6-1">Mike Godwin, <em>Cyber Rights: Defending Free Speech in the Digital Age</em> (New York: Times
@@ -14702,7 +14753,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER SEVEN
+      Chapter Seven
     </h4>
     <ol>
       <li id="note-c7-1">Or more precisely, against a certain form of government regulation. The more powerful
@@ -15016,7 +15067,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER EIGHT
+      Chapter Eight
     </h4>
     <ol>
       <li id="note-c8-1">Castronova, <em>Synthetic Worlds,</em> 207.
@@ -15149,7 +15200,7 @@
       </li>
     </ol>
     <h4>
-      PART III
+      Part III
     </h4>
     <ol>
       <li id="note-p3-1">For a related practice that focuses upon principles in context rather than application, see
@@ -15158,7 +15209,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER NINE
+      Chapter Nine
     </h4>
     <ol>
       <li id="note-c9-1">Justice Holmes himself called the wiretapping a “dirty business”; <em>Olmstead v. United
@@ -15290,7 +15341,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER TEN
+      Chapter Ten
     </h4>
     <ol>
       <li id="note-c10-1">Harold Smith Reeves, “Property in Cyberspace,” <em>University of Chicago Law Review</em> 63
@@ -15715,7 +15766,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER ELEVEN
+      Chapter Eleven
     </h4>
     <ol>
       <li id="note-c11-1">See Jonathan Zittrain, “What the Publisher Can Teach the Patient: Intellectual Property and
@@ -15937,7 +15988,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER TWELVE
+      Chapter Twelve
     </h4>
     <ol>
       <li id="note-c12-1">See 47 CFR 73.658(e) (1998); see also Herbert J. Rotfeld et al., “Television Station
@@ -16308,7 +16359,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER FOURTEEN
+      Chapter Fourteen
     </h4>
     <ol>
       <li id="note-c14-1">Audio Tape: Interview with Philip Rosedale 2 (1/13/06) (transcript on file with author).
@@ -16380,7 +16431,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER FIFTEEN
+      Chapter Fifteen
     </h4>
     <ol>
       <li id="note-c15-1">The story of the suit is told in <em>Yahoo! Inc. v. La Ligue Contre le Racisme,</em> 433 F.3d
@@ -16505,7 +16556,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER SIXTEEN
+      Chapter Sixteen
     </h4>
     <ol>
       <li id="note-c16-1">
@@ -16616,7 +16667,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER SEVENTEEN
+      Chapter Seventeen
     </h4>
     <ol>
       <li id="note-c17-1">Deborah Hellman, in “The Importance of Appearing Principled” (<em>Arizona Law Review</em> 37
@@ -16670,7 +16721,7 @@
       </li>
     </ol>
     <h4>
-      CHAPTER EIGHTEEN
+      Chapter Eighteen
     </h4>
     <ol>
       <li id="note-c18-1">Posting of Declan McCullagh, “Reporters Without Borders calls for regulation of U.S. Internet
@@ -16750,7 +16801,7 @@
       </li>
     </ol>
     <h4>
-      APPENDIX
+      Appendix
     </h4>
     <ol>
       <li id="note-a1-1">Lessig, “The New Chicago School,” 661.
@@ -16810,7 +16861,7 @@
       </li>
     </ol>
     <h2 id="a3">
-      INDEX
+      Index
     </h2>
     <p>
       Page references in <strong>bold</strong> refer to text graphics.
