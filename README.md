@@ -4,7 +4,7 @@ The [official site for the book](codev2.cc/) only offers a PDF. There are some e
 
 ## Progress
 
-As of `v0.13.0`
+As of `v0.14.0`
 
 | Chapter | Formatting | Notes links |
 | ------- | ---------- | ----------- |
@@ -28,12 +28,16 @@ As of `v0.13.0`
 | 18 | Done | Done |
 | Appendices | Done | Done |
 | Notes | Done | NA |
-| Index | Not started | NA |
+| Index | Done | NA |
 
 Other tasks:
 
 - [ ] Tidy HTML
 - [ ] Finalize CSS styles
+
+## Known issues
+
+- The index references page numbers from the source PDF, but these are meaningless in an .epub file. I don't see any straightforward way to deal with this.
 
 ## Acknowledgements
 
