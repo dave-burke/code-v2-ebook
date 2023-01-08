@@ -23,7 +23,7 @@ As of `v0.12.0`
 | 13 | Done | Done (no notes) |
 | 14 | Done | Done |
 | 15 | Done | Done |
-| 16 | Done | Not started |
+| 16 | Done | Done |
 | 17 | Done | Not started |
 | 18 | Done | Not started |
 | Appendices | Done | Not started |
