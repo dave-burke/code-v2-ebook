@@ -24,7 +24,7 @@ As of `v0.12.0`
 | 14 | Done | Done |
 | 15 | Done | Done |
 | 16 | Done | Done |
-| 17 | Done | Not started |
+| 17 | Done | Done |
 | 18 | Done | Not started |
 | Appendices | Done | Not started |
 | Notes | In progress | NA |
