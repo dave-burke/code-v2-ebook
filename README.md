@@ -34,6 +34,7 @@ Other tasks:
 
 - [x] Tidy HTML
 - [ ] Finalize CSS styles
+- [ ] Fix ToC (includes weird index links currently)
 
 ## Known issues
 
