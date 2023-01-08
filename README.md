@@ -32,7 +32,7 @@ As of `v0.14.0`
 
 Other tasks:
 
-- [ ] Tidy HTML
+- [x] Tidy HTML
 - [ ] Finalize CSS styles
 
 ## Known issues

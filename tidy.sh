@@ -13,5 +13,4 @@ tidy -modify \
 	--drop-empty-paras no \
 	Code_v2.html
 
-	#--accessibility-check 3 \
 
