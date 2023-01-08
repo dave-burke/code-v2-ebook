@@ -27,7 +27,7 @@ As of `v0.13.0`
 | 17 | Done | Done |
 | 18 | Done | Done |
 | Appendices | Done | Done |
-| Notes | In progress | NA |
+| Notes | Done | NA |
 | Index | Not started | NA |
 
 Other tasks:
