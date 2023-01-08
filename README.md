@@ -4,7 +4,7 @@ The [official site for the book](codev2.cc/) only offers a PDF. There are some e
 
 ## Progress
 
-As of `v0.11.1`
+As of `v0.12.0`
 
 | Chapter | Formatting | Notes links |
 | ------- | ---------- | ----------- |
@@ -19,8 +19,8 @@ As of `v0.11.1`
 | 09 | Done | Done |
 | 10 | Done | Done |
 | 11 | Done | Done |
-| 12 | Done | Not started |
-| 13 | Done | Not started |
+| 12 | Done | Done |
+| 13 | Done | Done (no notes) |
 | 14 | Done | Not started |
 | 15 | Done | Not started |
 | 16 | Done | Not started |
