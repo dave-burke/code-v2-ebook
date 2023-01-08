@@ -1908,7 +1908,7 @@ trouble the Germans much, but it did trouble CompuServe. So in January
 1995, CompuServe announced a technical fix: Rather than blocking access to
 the USENET newsgroups that the Bavarians had complained about for all
 members of CompuServe, CompuServe had devised a technology to filter
-content on a country-by-country basis.1
+content on a country-by-country basis.<sup><a href="#note-c4-1">[1]</a></sup>
 </p>
 <p>
 To make that fix work, CompuServe had to begin to reckon who a user
@@ -2092,7 +2092,7 @@ need to see more about the technical detail of how the Net is built.
 <p>
 As I’ve already said, the Internet is built from a suite of protocols referred
 to collectively as “TCP/IP.” At its core, the TCP/IP suite includes protocols for
-exchanging packets of data between two machines “on” the Net.2 Brutally simplified, the system takes a bunch of data (a file, for example), chops it up into
+exchanging packets of data between two machines “on” the Net.<sup><a href="#note-c4-2">[2]</a></sup> Brutally simplified, the system takes a bunch of data (a file, for example), chops it up into
 packets, and slaps on the address to which the packet is to be sent and the
 address from which it is sent. The addresses are called Internet Protocol
 addresses, and they look like this: 128.34.35.204. Once properly addressed, the
@@ -2140,7 +2140,7 @@ encrypted, that functionality should be performed by an application connected to
 </p>
 <p>
 This design principle was named by network architects Jerome Saltzer,
-David Clark, and David Reed as the end-to-end principle.3 It has been a core
+David Clark, and David Reed as the end-to-end principle.<sup><a href="#note-c4-3">[3]</a></sup> It has been a core
 principle of the Internet’s architecture, and, in my view, one of the most
 important reasons that the Internet produced the innovation and growth that
 it has enjoyed. But its consequences for purposes of identification and authentication make both extremely difficult with the basic protocols of the Internet
@@ -2229,7 +2229,7 @@ was bogus. Your secret, you believe, is safe.
 Wrong. In addition to the identification that your username might, or
 might not, provide, if the forum is on the web, then it knows the IP address
 from which you made your post. With that IP address, and the time you made
-your post, using “a reverse DNS look-up,”4 it is simple to identify the Internet
+your post, using “a reverse DNS look-up,”<sup><a href="#note-c4-4">[4]</a></sup> it is simple to identify the Internet
 Service Provider that gave you access to the Internet. And increasingly, it is relatively simple for the Internet Service Provider to check its records to reveal
 which account was using that IP address at that specified time. Thus, the ISP
 could (if required) say that it was your account that was using the IP address
@@ -2280,7 +2280,7 @@ italics, for example).
 </p>
 <p>
 But the one thing the protocol didn’t enable was a simple way for a website to know which machines had accessed it. The protocol was “state-less.”
-When a web server received a request to serve a web page, it didn’t know anything about the state of the requester before that request was made.5
+When a web server received a request to serve a web page, it didn’t know anything about the state of the requester before that request was made.<sup><a href="#note-c4-5">[5]</a></sup>
 </p>
 <p>
 From the perspective of privacy, this sounds like a great feature for the
@@ -2388,7 +2388,7 @@ along.
 </p>
 <p>
 To understand this second system, think first about how credentials work
-in real space.6 You’ve got a wallet. In it is likely to be a driver’s license, some
+in real space.<sup><a href="#note-c4-6">[6]</a></sup> You’ve got a wallet. In it is likely to be a driver’s license, some
 credit cards, a health insurance card, an ID for where you work, and, if you’re
 lucky, some money. Each of these cards can be used to authenticate some fact
 about you—again, with very different levels of confidence. The driver’s license
@@ -2441,7 +2441,7 @@ The virtual wallet would be different. If you need to authenticate your age,
 the technology could authenticate that fact alone—indeed, it could authenticate simply that you’re over 21, or over 65, or under 18, without revealing anything more. Or if you need to authenticate your citizenship, that fact can be
 certified without revealing your name, or where you live, or your passport
 number. The technology is crafted to reveal just what you want it to reveal,
-without also revealing other stuff. (As one of the key architects for this metasystem, Kim Cameron, described it: “To me, that’s the center of the system.”7)
+without also revealing other stuff. (As one of the key architects for this metasystem, Kim Cameron, described it: “To me, that’s the center of the system.”<sup><a href="#note-c4-7">[7]</a></sup>)
 And, most importantly, using the power of cryptography, the protocol makes
 it possible for the other side to be confident about the fact you reveal without
 requiring any more data.
@@ -2454,18 +2454,18 @@ Microsoft may be leading the project, but anyone can build for this protocol.
 Nothing ties the protocol to the Windows operating system. Or to any other
 specific vendor. As Cameron wisely puts it, “it can’t be owned by any one
 company or any one country . . . or just have the technology stamp of any one
-engineer.”8
+engineer.”<sup><a href="#note-c4-8">[8]</a></sup>
 </p>
 <p>
 The Identity Layer is infrastructure for the Internet. It gives value (and
 raises concerns) to many beyond Microsoft. But though Microsoft’s work is
 an important gift to the Internet, the Identity Layer is not altruism.
 “Microsoft’s strategy is based on web services,” Cameron described to me.
-“Web services are impossible without identity.”9 There is important public
+“Web services are impossible without identity.”<sup><a href="#note-c4-9">[9]</a></sup> There is important public
 value here, but private interest is driving the deployment of this public value.
 </p>
 <p>
-The Identity Layer would benefit individuals, businesses, and the government, but each differently. Individuals could more easily protect themselves from identity theft;10 if you get an e-mail from PayPal demanding you
+The Identity Layer would benefit individuals, businesses, and the government, but each differently. Individuals could more easily protect themselves from identity theft;<sup><a href="#note-c4-10">[10]</a></sup> if you get an e-mail from PayPal demanding you
 update your account, you’ll know whether the website is actually PayPal. Or if
 you want to protect yourself against spam, you could block all e-mail that
 doesn’t come from an authenticated server. In either case, the technology is
@@ -2531,13 +2531,13 @@ Janus-faced. As Stewart Baker and Paul Hurst put it, cryptography “surely is
 the best of technologies and the worst of technologies. It will stop crimes and
 it will create new crimes. It will undermine dictatorships, and it will drive
 them to new excesses. It will make us all anonymous, and it will track our
-every transaction.”11
+every transaction.”<sup><a href="#note-c4-11">[11]</a></sup>
 </p>
 <p>
 Cryptography can be all these things, both good and bad, because encryption can serve two fundamentally different ends. In its “confidentiality” function it can be “used to keep communications secret.” In its “identification”
-function it can be “used to provide forgery-proof digital identities.”12 It
+function it can be “used to provide forgery-proof digital identities.”<sup><a href="#note-c4-12">[12]</a></sup> It
 enables freedom from regulation (as it enhances confidentiality), but it can
-also enable more efficient regulation (as it enhances identification).13
+also enable more efficient regulation (as it enhances identification).<sup><a href="#note-c4-13">[13]</a></sup>
 </p>
 <p>
 Its traditional use is secrets. Encrypt a message, and only those with the
@@ -2552,14 +2552,14 @@ risk that the key would be lost.
 </p>
 <p>
 In the mid-1970s, however, a breakthrough in encryption technique was
-announced by two computer scientists, Whitfield Diffie and Martin Hellman.14 Rather than relying on a single key, the Diffie-Hellman system used
+announced by two computer scientists, Whitfield Diffie and Martin Hellman.<sup><a href="#note-c4-14">[14]</a></sup> Rather than relying on a single key, the Diffie-Hellman system used
 two keys—one public, the other private. What is encrypted with one can be
 decrypted only with the other. Even with one key there is no way to infer the
 other.
 </p>
 <p>
 This discovery was the clue to an architecture that could build an extraordinary range of confidence into any network, whether or not the physical
-network itself was secure.15 And again, that confidence could both make me
+network itself was secure.<sup><a href="#note-c4-15">[15]</a></sup> And again, that confidence could both make me
 confident that my secrets won’t be revealed and make me confident that the
 person using my site just now is you. The technology therefore works to keep
 secrets, but it also makes it harder to keep secrets. It works to make stuff less
@@ -2575,7 +2575,7 @@ Internet Protocol—IPv6—“marks each packet with an encryption ‘key’ tha
 cannot be altered or forged, thus securely identifying the packet’s origin. This
 authentication function can identify every sender and receiver of information
 over the Internet, thus making it nearly impossible for people to remain
-anonymous on the Internet.”16
+anonymous on the Internet.”<sup><a href="#note-c4-16">[16]</a></sup>
 </p>
 <p>
 And even if not impossible, sufficiently difficult for the vast majority of
@@ -2631,7 +2631,7 @@ its network. As its webpage promises,
 The Ipanema Systems “deep” layer 7 packet inspection automatically recognizes
 all critical business and recreational application flows running over the network.
 Real-time graphical interfaces as well as minute-by-minute reports are available
-to rapidly discover newly deployed applications.17
+to rapidly discover newly deployed applications.<sup><a href="#note-c4-17">[17]</a></sup>
 </blockquote>
 <p>
 Using the data gathered by this technology, the system generates reports
@@ -2639,7 +2639,7 @@ about the applications being used in the network, and who’s using them.
 These technologies make it possible to control network use, either to economize on bandwidth costs, or to block uses that the network owner doesn’t permit.
 </p>
 <p>
-Another example of this kind of content control is a product called “iProtectYou.”18 This product also scans packets on a network, but this control is
+Another example of this kind of content control is a product called “iProtectYou.”<sup><a href="#note-c4-18">[18]</a></sup> This product also scans packets on a network, but this control is
 implemented at the level of a particular machine. Parents load this software
 on a computer; the software then monitors all network traffic with that computer. As the company describes, the program can then “filter harmful websites and newsgroups; restrict Internet time to a predetermined schedule;
 decide which programs can have Internet access; limit the amount of data that
@@ -2657,7 +2657,7 @@ a wide range of programs to monitor networks. Perhaps the dominant application i
 for network exploration or security auditing . . . designed to rapidly scan large networks. . . . Nmap uses raw IP packets in novel ways to determine what hosts are
 available on the network, what services (application name and version) those
 hosts are offering, what operating systems (and OS versions) they are running,
-what type of packet filters/firewalls are in use, and dozens of other characteristics.19
+what type of packet filters/firewalls are in use, and dozens of other characteristics.<sup><a href="#note-c4-19">[19]</a></sup>
 </blockquote>
 <p>
 This software is “free software,” meaning the source code is available, and
@@ -2724,7 +2724,7 @@ the Internet resources they access. Internet protocols were designed to ignore
 rather than document geographic location; while computers on the network
 do have “addresses,” they are logical addresses on the network rather than geographic addresses in real space. The majority of Internet addresses contain no
 geographic clues and, even where an Internet address provides such a clue, it
-may be misleading.20
+may be misleading.<sup><a href="#note-c4-20">[20]</a></sup>
 </blockquote>
 <p>
 But once again, commerce has come to the rescue of regulability. There
@@ -2760,7 +2760,7 @@ His e-mail was hosted on a web server, but he noticed that the banner ads at
 the top of the website were advertising an American flower company. That
 gave him a (now obvious) idea: Why not build a tool to make it easy for a
 website to know from where it is being accessed, so it can serve relevant ads to
-those users?21
+those users?<sup><a href="#note-c4-21">[21]</a></sup>
 </p>
 <p>
 Houri’s idea has been copied by many. Geoselect, for example, is a company that provides IP mapping services. Just browse to their webpage, and
@@ -2776,7 +2776,7 @@ reveal—where someone is from.
 </p>
 <p>
 So what commercial reasons do websites have for using such software?
-One company, MaxMind,22 lists the major reason as credit card fraud: If your
+One company, MaxMind,<sup><a href="#note-c4-22">[22]</a></sup> lists the major reason as credit card fraud: If your
 customer comes from a “high risk IP address”—meaning a location where it’s
 likely the person is engaged in credit card fraud—then MaxMind’s service will
 flag the transaction and direct that it have greater security verification. Max-Mind also promises the service will be valuable for “targeted advertising.” Using
@@ -2786,7 +2786,7 @@ well as a “metropolitan code,” an area code, and connection speed of the use
 </p>
 <p>
 Here too there is an important and powerful open source application
-that provides the same IP mapping functions. Hostip.info gives website operators—for free—the ability to “geolocate” the users of their site.23 This again
+that provides the same IP mapping functions. Hostip.info gives website operators—for free—the ability to “geolocate” the users of their site.<sup><a href="#note-c4-23">[23]</a></sup> This again
 means that the core functionality of IP mapping is not held exclusively by corporations or a few individuals. Any application developer—including a government—could incorporate the function into its applications. The
 knowledge and functionality is free.
 </p>
@@ -2800,7 +2800,7 @@ produce the data the network needs.
 <p>
 But it is still possible to evade identification. Civil liberty activist Seth
 Finkelstein has testified to the relative ease with which one can evade this
-tracking.24 Yet as I will describe more below, even easily evaded tracking can
+tracking.<sup><a href="#note-c4-24">[24]</a></sup> Yet as I will describe more below, even easily evaded tracking can
 be effective tracking. And when tied to the architectures for identity described
 above, this sort will become quite effective.
 </p>
@@ -2814,7 +2814,7 @@ but difficult. Not for all people, but for enough to matter. The Internet as it
 originally was gave everyone a “Ring of Gyges,” the ring which, as Plato reports
 in <i>The Republic, </i>made Gyges the shepherd invisible. The dilemma for regulation in such a world is precisely the fear Plato had about this ring: With such
 a ring, “no man can be imagined to be of such an iron nature that he would
-stand fast in justice.”25
+stand fast in justice.”<sup><a href="#note-c4-25">[25]</a></sup>
 </p>
 <p>
 And if such a man did choose justice, even with the power of the ring,
@@ -14889,174 +14889,138 @@ All hypertext links can be located at &lt;http://codev2.cc/links&gt;.
   <li id="note-c3-9">In some contexts we call a network architecture that solves some of these “imperfections”—that builds in these elements of control—an intranet. Intranets are the fastest-growing portion of the Internet today. They are a strange hybrid of two traditions in network computing—the open system of the Internet, based on TCP/IP, and the control-based capability of traditional proprietary networks layered onto the Internet. Intranets mix values from each to produce a network that is interoperable but gives its controller more control over access than anyone would have over the Internet. My argument in this book is that an “internet” with control is what our Internet is becoming.</li>
 </ol>
 <h4>CHAPTER FOUR</h4>
-1. TelecomWorldWire, “Compuserve Moves for Porn Techno Fix,” January 11, 1995.
-2. See Ed Krol, <i>The Whole Internet: User’s Guide and Catalogue </i>(Sebastopol, Cal.: O’Reilly
-and Associates, 1992), 23–25; Loshin, <i>TCP/IP Clearly Explained, </i>3–83; Hunt, TCP/IP, 1–22; see
-also Ben M. Segal, “A Short History of Internet Protocols at CERN,” available at link #12.
-3. See Jerome H. Saltzer et al., “End-to-End Arguments in System Design,” in <i>Integrated</i>
-<i>Broadband Networks, </i>edited by Amit Bhargava (Norwood, Mass.: Artech House, 1991), 30–41.
-4. Shawn C. Helms, “Translating Privacy Values with Technology,” <i>Boston University Jour-</i>
-<i>nal of Science and Technology Law </i>7 (2001): 288, 296.
-5. For a description of HTTP Protocols as they were used in the early 1990s, see link #13.
-6. For an extraordinarily clear explication of the point, see Dick Hardt—Etech 2006:
-“Who Is the Dick on My Site?” (2006), available at link #14.
-7. Audio Tape: Interview with Kim Cameron (1/9/06) (on file with author).
-8. Ibid.
-9. Ibid.
-10. A number of states have now passed legislation dealing with ID theft. A current listing
-follows:
-Alabama
-Alabama Code § 13A-8–190 through 201
-Alaska
-Alaska Stat § 11.46.565
-Arizona
-Ariz. Rev. Stat. § 13–2008
-Arkansas
-Ark. Code Ann. § 5–37–227
-California
-Cal. Penal Code § 530.5–8
-Connecticut
-Conn. Stat. § 53a-129a
-Conn. Stat. § 52–571h
-Delaware
-Del. Code Ann. tit. II, § 854
-District of Columbia
-Title 22, Section 3227
-Florida
-Fla. Stat. Ann. § 817.568
-Georgia
-Ga. Code Ann. § 16–9-120, through 128
-Guam
-9 Guam Code Ann. § 46.80
-Hawaii
-HI Rev. Stat. § 708–839.6–8
-Idaho
-Idaho Code § 18–3126
-Illinois
-720 Ill. Comp. Stat. 5/16 G
-Indiana
-Ind. Code § 35–43–5-3.5
-Iowa
-Iowa Code § 715A.8
-Kansas
-Kan. Stat. Ann. § 21–4018
-Kentucky
-Ky. Rev. Stat. Ann. § 514.160
-Louisiana
-La. Rev. Stat. Ann. § 14:67.16
-Maine
-ME Rev. Stat. Ann. tit. 17-A §905-A
-Maryland
-Md. Code Ann. art. 27 § 231
-Massachusetts
-Mass. Gen. Laws ch. 266, § 37E
-Michigan
-Mich. Comp. Laws § 750.285
-Minnesota
-Minn. Stat. Ann. § 609.527
-Mississippi
-Miss. Code Ann. § 97–19–85
-Missouri
-Mo. Rev. Stat. § 570.223
-Montana
-Mon. Code Ann § 45–6-332
-Nebraska
-NE Rev. Stat. § 28–608 and 620
-Nevada
-Nev. Rev. State. § 205.463–465
-New Hampshire
-N.H. Rev. Stat. Ann. § 638:26
-New Jersey
-N.J. Stat. Ann. § 2C:21–17
-New Mexico
-N.M. Stat. Ann. § 30–16–24.1
-New York
-NY CLS Penal § 190.77–190.84
-North Carolina
-N.C. Gen. Stat. § 14–113.20–23
-North Dakota
-N.D.C.C. § 12.1–23–11
-Ohio
-Ohio Rev. Code Ann. § 2913.49
-Oklahoma
-Okla. Stat. tit. 21, § 1533.1
-Oregon
-Or. Rev. Stat. § 165.800
-Pennsylvania
-18 Pa. Cons. Stat. § 4120
-Rhode Island
-R.I. Gen. Laws § 11–49.1–1
-South Carolina
-S.C. Code Ann. § 16–13–510
-South Dakota
-S.D. Codified Laws § 22–30A-3.1.
-Tennessee
-TCA § 39–14–150
-TCA § 47–18–2101
-Texas
-Tex. Penal Code § 32.51
-Utah
-Utah Code Ann. § 76–6-1101–1104
-Virginia
-Va. Code Ann. § 18.2–186.3
-Washington
-Wash. Rev. Code § 9.35.020
-West Virginia
-W. Va. Code § 61–3-54
-Wisconsin
-Wis. Stat. § 943.201
-Wyoming
-Wyo. Stat. Ann. § 6–3-901
-11. Stewart A. Baker and Paul R. Hurst, <i>The Limits of Trust: Cryptography, Governments,</i>
-<i>and Electronic Commerce </i>(Boston: Kluwer Law International, 1998), xv.
-12. Ibid.
-13. See Hal Abelson et al., “The Risks of Key Recovery, Key Escrow, and Trusted Third-Party Encryption,” <i>World Wide Web Journal </i>2 (1997): 241, 245: “Although cryptography has traditionally been associated with confidentiality, other cryptographic mechanisms, such as
-authentication codes and digital signatures, can assure that messages have not been tampered
-with or forged.”
-14. Whitfield Diffie and Martin E. Hellman, “New Directions in Cryptography,” <i>IEEE</i>
-<i>Transactions on Information Theory it–22 </i>(November 1976): 29–40. The idea had apparently
-been discovered earlier by James Ellis at the British Government Communication Headquarters, but it was not then published; see Baker and Hurst, <i>The Limits of Trust, </i>xvii–xviii.
-15. Even if the wires are tapped, this type of encryption still achieves its magic. We can get
-a hint of how in a series of cases whose accumulating impact makes the potential clear.
-A. If I want to send a message to you that I know only you will be able to read, I can take
-your public key and use it to encrypt that message. Then I can send that message to you knowing that only the holder of the private key (presumably you) will be able to read it. Advantage:
-My message to you is secure. Disadvantage: You can’t be sure it is I who sent you the message.
-Because anyone can encrypt a message using your public key and then send it to you, you
-have no way to be certain that I was the one who sent it. Therefore, consider the next example.
-B. Before I send the message I have encrypted with your public key, I can encrypt it with
-my private key. Then when you receive the message from me, you can first decrypt it with my
-public key, and then decrypt it again with your private key. After the first decryption, you can
-be sure that I (or the holder of my private key) was the one who sent you the message; after the
-second decryption, you can be sure that only you (or other holders of your private key) actually
-read the content of the message. But how do you know that what I say is the public key of Larry
-Lessig is actually the public key of Larry Lessig? How can you be sure, that is, that the public key
-you are using is actually the public key it purports to be? Here is where the next example
-comes in.
-C. If there is a trustworthy third party (say, my bank, or the Federal Reserve Board, or the
-ACLU) with a public key (a fact I am able to verify because of the prominence of the institution), and that third party verifies that the public key of Larry Lessig is actually the public key
-of Larry Lessig, then along with my message sent to you, encrypted first in your public key and
-second in my private key, would be a certificate, issued by that institution, itself encrypted
-with the institution’s private key. When you receive the message, you can use the institution’s
-public key to decrypt the certificate; take from the certificate my public key (which you now are
-fairly confident is my public key); decrypt the message I sent you with the key held in the certificate (after which you are fairly confident comes from me); and then decrypt the message
-encrypted with your public key (which you can be fairly confident no one else has read). If we
-did all that, you would know that I am who I say I am and that the message was sent by me; I
-would know that only you read the message; and you would know that no one else read the
-message along the way.
-16. Shawn C. Helms, “Translating Privacy Values with Technology,” <i>Boston University</i>
-<i>Journal of Science and Technology Law </i>7 (2001): 288, 299.
-17. Ipanema Technologies, “Automatically discover applications running over your network.” Available at link #15.
-18. iProtectYou Pro Web Filter v7.10. See link #16.
-19. Nmap (“Network Mapper”). See link #17.
-20. <i>American Library Association v. Pataki, </i>969 F. Supp. 160 (S.D.N.Y. 1997), cited in
-Michael Geist, <i>Cyberlaw 2.0, </i>44 <i>Boston College Law Review </i>323, 326–27 (2003).
-21. Jack Goldsmith and Timothy Wu, <i>Who Controls the Internet: Illusions of a Borderless</i>
-<i>World </i>(New York: Oxford University Press, 2006), 44.
-22. MaxMind Home Page, available at link #18.
-23. Hostip.info Home Page, available at #19.
-24. Seth Finkelstein, Barbara Nitke and the National Association for Sexual Freedom v.
-Ashcroft—Declaration of Seth Finkelstein (last updated Fri April 28, 2006), available at link #20.
-25. <i>Plato’s Republic, Book II </i>(Agoura Publications, Inc. 2001).
+<ol>
+  <li id="note-c4-1">TelecomWorldWire, “Compuserve Moves for Porn Techno Fix,” January 11, 1995.</li>
+  <li id="note-c4-2">See Ed Krol, <i>The Whole Internet: User’s Guide and Catalogue </i>(Sebastopol, Cal.: O’Reilly and Associates, 1992), 23–25; Loshin, <i>TCP/IP Clearly Explained, </i>3–83; Hunt, TCP/IP, 1–22; see also Ben M. Segal, “A Short History of Internet Protocols at CERN,” available at link #12.</li>
+  <li id="note-c4-3">See Jerome H. Saltzer et al., “End-to-End Arguments in System Design,” in <i>Integrated</i> <i>Broadband Networks, </i>edited by Amit Bhargava (Norwood, Mass.: Artech House, 1991), 30–41.</li>
+  <li id="note-c4-4">Shawn C. Helms, “Translating Privacy Values with Technology,” <i>Boston University Jour-</i> <i>nal of Science and Technology Law </i>7 (2001): 288, 296.</li>
+  <li id="note-c4-5">For a description of HTTP Protocols as they were used in the early 1990s, see link #13.</li>
+  <li id="note-c4-6">For an extraordinarily clear explication of the point, see Dick Hardt—Etech 2006: “Who Is the Dick on My Site?” (2006), available at link #14.</li>
+  <li id="note-c4-7">Audio Tape: Interview with Kim Cameron (1/9/06) (on file with author).</li>
+  <li id="note-c4-8">Ibid.</li>
+  <li id="note-c4-9">Ibid.</li>
+  <li id="note-c4-10">A number of states have now passed legislation dealing with ID theft. A current listing follows:
+    <ul>
+      <li>Alabama</li>
+      <li>Alabama Code § 13A-8–190 through 201</li>
+      <li>Alaska</li>
+      <li>Alaska Stat § 11.46.565</li>
+      <li>Arizona</li>
+      <li>Ariz. Rev. Stat. § 13–2008</li>
+      <li>Arkansas</li>
+      <li>Ark. Code Ann. § 5–37–227</li>
+      <li>California</li>
+      <li>Cal. Penal Code § 530.5–8</li>
+      <li>Connecticut</li>
+      <li>Conn. Stat. § 53a-129a</li>
+      <li>Conn. Stat. § 52–571h</li>
+      <li>Delaware</li>
+      <li>Del. Code Ann. tit. II, § 854</li>
+      <li>District of Columbia</li>
+      <li>Title 22, Section 3227</li>
+      <li>Florida</li>
+      <li>Fla. Stat. Ann. § 817.568</li>
+      <li>Georgia</li>
+      <li>Ga. Code Ann. § 16–9-120, through 128</li>
+      <li>Guam</li>
+      <li>9 Guam Code Ann. § 46.80</li>
+      <li>Hawaii</li>
+      <li>HI Rev. Stat. § 708–839.6–8</li>
+      <li>Idaho</li>
+      <li>Idaho Code § 18–3126</li>
+      <li>Illinois</li>
+      <li>720 Ill. Comp. Stat. 5/16 G</li>
+      <li>Indiana</li>
+      <li>Ind. Code § 35–43–5-3.5</li>
+      <li>Iowa</li>
+      <li>Iowa Code § 715A.8</li>
+      <li>Kansas</li>
+      <li>Kan. Stat. Ann. § 21–4018</li>
+      <li>Kentucky</li>
+      <li>Ky. Rev. Stat. Ann. § 514.160</li>
+      <li>Louisiana</li>
+      <li>La. Rev. Stat. Ann. § 14:67.16</li>
+      <li>Maine</li>
+      <li>ME Rev. Stat. Ann. tit. 17-A §905-A</li>
+      <li>Maryland</li>
+      <li>Md. Code Ann. art. 27 § 231</li>
+      <li>Massachusetts</li>
+      <li>Mass. Gen. Laws ch. 266, § 37E</li>
+      <li>Michigan</li>
+      <li>Mich. Comp. Laws § 750.285</li>
+      <li>Minnesota</li>
+      <li>Minn. Stat. Ann. § 609.527</li>
+      <li>Mississippi</li>
+      <li>Miss. Code Ann. § 97–19–85</li>
+      <li>Missouri</li>
+      <li>Mo. Rev. Stat. § 570.223</li>
+      <li>Montana</li>
+      <li>Mon. Code Ann § 45–6-332</li>
+      <li>Nebraska</li>
+      <li>NE Rev. Stat. § 28–608 and 620</li>
+      <li>Nevada</li>
+      <li>Nev. Rev. State. § 205.463–465</li>
+      <li>New Hampshire</li>
+      <li>N.H. Rev. Stat. Ann. § 638:26</li>
+      <li>New Jersey</li>
+      <li>N.J. Stat. Ann. § 2C:21–17</li>
+      <li>New Mexico</li>
+      <li>N.M. Stat. Ann. § 30–16–24.1</li>
+      <li>New York</li>
+      <li>NY CLS Penal § 190.77–190.84</li>
+      <li>North Carolina</li>
+      <li>N.C. Gen. Stat. § 14–113.20–23</li>
+      <li>North Dakota</li>
+      <li>N.D.C.C. § 12.1–23–11</li>
+      <li>Ohio</li>
+      <li>Ohio Rev. Code Ann. § 2913.49</li>
+      <li>Oklahoma</li>
+      <li>Okla. Stat. tit. 21, § 1533.1</li>
+      <li>Oregon</li>
+      <li>Or. Rev. Stat. § 165.800</li>
+      <li>Pennsylvania</li>
+      <li>18 Pa. Cons. Stat. § 4120</li>
+      <li>Rhode Island</li>
+      <li>R.I. Gen. Laws § 11–49.1–1</li>
+      <li>South Carolina</li>
+      <li>S.C. Code Ann. § 16–13–510</li>
+      <li>South Dakota</li>
+      <li>S.D. Codified Laws § 22–30A-3.1.</li>
+      <li>Tennessee</li>
+      <li>TCA § 39–14–150</li>
+      <li>TCA § 47–18–2101</li>
+      <li>Texas</li>
+      <li>Tex. Penal Code § 32.51</li>
+      <li>Utah</li>
+      <li>Utah Code Ann. § 76–6-1101–1104</li>
+      <li>Virginia</li>
+      <li>Va. Code Ann. § 18.2–186.3</li>
+      <li>Washington</li>
+      <li>Wash. Rev. Code § 9.35.020</li>
+      <li>West Virginia</li>
+      <li>W. Va. Code § 61–3-54</li>
+      <li>Wisconsin</li>
+      <li>Wis. Stat. § 943.201</li>
+      <li>Wyoming</li>
+      <li>Wyo. Stat. Ann. § 6–3-901</li>
+    </ul>
+  </li>
+  <li id="note-c4-11">Stewart A. Baker and Paul R. Hurst, <i>The Limits of Trust: Cryptography, Governments,</i> <i>and Electronic Commerce </i>(Boston: Kluwer Law International, 1998), xv.</li>
+  <li id="note-c4-12">Ibid.</li>
+  <li id="note-c4-13">See Hal Abelson et al., “The Risks of Key Recovery, Key Escrow, and Trusted Third-Party Encryption,” <i>World Wide Web Journal </i>2 (1997): 241, 245: “Although cryptography has traditionally been associated with confidentiality, other cryptographic mechanisms, such as authentication codes and digital signatures, can assure that messages have not been tampered with or forged.”</li>
+  <li id="note-c4-14">Whitfield Diffie and Martin E. Hellman, “New Directions in Cryptography,” <i>IEEE</i> <i>Transactions on Information Theory it–22 </i>(November 1976): 29–40. The idea had apparently been discovered earlier by James Ellis at the British Government Communication Headquarters, but it was not then published; see Baker and Hurst, <i>The Limits of Trust, </i>xvii–xviii.</li>
+  <li id="note-c4-15"><p>Even if the wires are tapped, this type of encryption still achieves its magic. We can get a hint of how in a series of cases whose accumulating impact makes the potential clear.  A. If I want to send a message to you that I know only you will be able to read, I can take your public key and use it to encrypt that message. Then I can send that message to you knowing that only the holder of the private key (presumably you) will be able to read it. Advantage: My message to you is secure. Disadvantage: You can’t be sure it is I who sent you the message.  Because anyone can encrypt a message using your public key and then send it to you, you have no way to be certain that I was the one who sent it. Therefore, consider the next example.  B. Before I send the message I have encrypted with your public key, I can encrypt it with my private key. Then when you receive the message from me, you can first decrypt it with my public key, and then decrypt it again with your private key. After the first decryption, you can be sure that I (or the holder of my private key) was the one who sent you the message; after the second decryption, you can be sure that only you (or other holders of your private key) actually read the content of the message. But how do you know that what I say is the public key of Larry Lessig is actually the public key of Larry Lessig? How can you be sure, that is, that the public key you are using is actually the public key it purports to be? Here is where the next example comes in.</p><p> C. If there is a trustworthy third party (say, my bank, or the Federal Reserve Board, or the ACLU) with a public key (a fact I am able to verify because of the prominence of the institution), and that third party verifies that the public key of Larry Lessig is actually the public key of Larry Lessig, then along with my message sent to you, encrypted first in your public key and second in my private key, would be a certificate, issued by that institution, itself encrypted with the institution’s private key. When you receive the message, you can use the institution’s public key to decrypt the certificate; take from the certificate my public key (which you now are fairly confident is my public key); decrypt the message I sent you with the key held in the certificate (after which you are fairly confident comes from me); and then decrypt the message encrypted with your public key (which you can be fairly confident no one else has read). If we did all that, you would know that I am who I say I am and that the message was sent by me; I would know that only you read the message; and you would know that no one else read the message along the way.</p></li>
+  <li id="note-c4-16">Shawn C. Helms, “Translating Privacy Values with Technology,” <i>Boston University</i> <i>Journal of Science and Technology Law </i>7 (2001): 288, 299.</li>
+  <li id="note-c4-17">Ipanema Technologies, “Automatically discover applications running over your network.” Available at link #15.</li>
+  <li id="note-c4-18">iProtectYou Pro Web Filter v7.10. See link #16.</li>
+  <li id="note-c4-19">Nmap (“Network Mapper”). See link #17.</li>
+  <li id="note-c4-20"><i>American Library Association v. Pataki, </i>969 F. Supp. 160 (S.D.N.Y. 1997), cited in Michael Geist, <i>Cyberlaw 2.0, </i>44 <i>Boston College Law Review </i>323, 326–27 (2003).</li>
+  <li id="note-c4-21">Jack Goldsmith and Timothy Wu, <i>Who Controls the Internet: Illusions of a Borderless</i> <i>World </i>(New York: Oxford University Press, 2006), 44.</li>
+  <li id="note-c4-22">MaxMind Home Page, available at link #18.</li>
+  <li id="note-c4-23">Hostip.info Home Page, available at #19.</li>
+  <li id="note-c4-24">Seth Finkelstein, Barbara Nitke and the National Association for Sexual Freedom v.  Ashcroft—Declaration of Seth Finkelstein (last updated Fri April 28, 2006), available at link #20.</li>
+  <li id="note-c4-25"><i>Plato’s Republic, Book II </i>(Agoura Publications, Inc. 2001).</li>
+</ol>
 <h4>CHAPTER FIVE</h4>
 1. Joel R. Reidenberg, “Technology and Internet Jurisdiction,” <i>University of Pennsylvania</i>
 <i>Law Review </i>153 (2005): 1951.
