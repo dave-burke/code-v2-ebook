@@ -30,12 +30,6 @@ As of `v0.14.0`
 | Notes | Done | NA |
 | Index | Done | NA |
 
-Other tasks:
-
-- [x] Tidy HTML
-- [ ] Finalize CSS styles
-- [ ] Fix ToC (includes weird index links currently)
-
 ## Known issues
 
 - The index references page numbers from the source PDF, but these are meaningless in an .epub file. I don't see any straightforward way to deal with this.
