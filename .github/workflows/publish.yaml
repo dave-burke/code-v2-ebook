@@ -15,7 +15,7 @@ jobs:
         with:
           in: Code_v2.html
           out: Code_v2.epub
-          args: --level1-toc=//h:h2[@class="toc-1"]|//h:h1[@class="part-header"] --level2-toc=//h:h2"
+          args: --level1-toc=//h:h2[@class="toc-1"]|//h:h1[@class="part-header"] --level2-toc=//h:h2
 
       - name: Create release
         uses: softprops/action-gh-release@v1
