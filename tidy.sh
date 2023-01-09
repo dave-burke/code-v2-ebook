@@ -3,6 +3,8 @@
 set -e
 
 tidy -modify \
+	--mute-id yes \
+	--mute "PROPRIETARY_ATTRIBUTE" \
 	--output-html yes \
 	--doctype html5 \
 	--add-meta-charset yes \
