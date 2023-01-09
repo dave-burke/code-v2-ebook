@@ -4,7 +4,7 @@ The [official site for the book](codev2.cc/) only offers a PDF. There are some e
 
 ## Progress
 
-As of `v0.16.0`, the book is essentially complete. `v1.0.0` will likely be released soon.
+As of `v0.16.3`, the book is essentially complete. `v1.0.0` will likely be released soon.
 
 ## Known issues
 
