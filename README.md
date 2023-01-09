@@ -4,31 +4,7 @@ The [official site for the book](codev2.cc/) only offers a PDF. There are some e
 
 ## Progress
 
-As of `v0.14.0`
-
-| Chapter | Formatting | Notes links |
-| ------- | ---------- | ----------- |
-| 01 | Done | Done |
-| 02 | Done | Done |
-| 03 | Done | Done |
-| 04 | Done | Done |
-| 05 | Done | Done |
-| 06 | Done | Done |
-| 07 | Done | Done |
-| 08 | Done | Done |
-| 09 | Done | Done |
-| 10 | Done | Done |
-| 11 | Done | Done |
-| 12 | Done | Done |
-| 13 | Done | Done (no notes) |
-| 14 | Done | Done |
-| 15 | Done | Done |
-| 16 | Done | Done |
-| 17 | Done | Done |
-| 18 | Done | Done |
-| Appendices | Done | Done |
-| Notes | Done | NA |
-| Index | Done | NA |
+As of `v0.16.0`, the book is essentially complete. `v1.0.0` will likely be released soon.
 
 ## Known issues
 
